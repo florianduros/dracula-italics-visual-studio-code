@@ -20,10 +20,7 @@ async function loadTheme(yamlFilePath) {
     const standardThemeYAML = await readFileRetrying(yamlFilePath);
     const standardTheme = await loadYAML(standardThemeYAML);
 
-    const softThemeYAML = getSoftThemeYAML(standardThemeYAML, standardTheme);
-    const softTheme = await loadYAML(softThemeYAML);
-
-    return { standardTheme, softTheme };
+    return { standardTheme };
 }
 
 function getSoftThemeYAML(fileContent, standardTheme) {

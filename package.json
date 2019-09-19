@@ -1,10 +1,10 @@
 {
-	"name": "theme-dracula",
-	"version": "2.18.0",
-	"displayName": "Dracula Official",
+	"name": "theme-dracula-italics-turbo",
+	"version": "1.0.1",
+	"displayName": "Dracula Theme enhanced width italic keywords",
 	"homepage": "https://draculatheme.com/",
-	"description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-	"publisher": "dracula-theme",
+	"description": "Forked version of dracula enhanced width italic keywords",
+	"publisher": "FlorianDuros",
 	"license": "MIT",
 	"scripts": {
 		"dev": "node ./scripts/dev.js",
@@ -14,22 +14,17 @@
 		"vscode:prepublish": "npm run build"
 	},
 	"maintainers": [
-		"Derek P Sifford <dereksifford@gmail.com>"
+		"Florian Duros <florian.duros@gmail.com>"
 	],
 	"contributors": [
-		"Krzysztof Wisznarewski",
-		"Daniel Ramos",
-		"Eric Jackson",
-		"Elliott Pogue",
-		"Ajit Singh",
-		"Teddy Bradford"
+		"Florian Duros"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dracula/visual-studio-code.git"
+		"url": "https://github.com/florianduros/dracula-italics-visual-studio-code.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dracula/visual-studio-code/issues"
+		"url": "https://github.com/florianduros/dracula-italics-visual-studio-code.git"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
@@ -41,7 +36,8 @@
 		"dracula",
 		"dark",
 		"theme",
-		"color-theme"
+		"color-theme",
+		"italic"
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -51,14 +47,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dracula",
+				"label": "Dracula Italics Turbo",
 				"uiTheme": "vs-dark",
 				"path": "./theme/dracula.json"
-			},
-			{
-				"label": "Dracula Soft",
-				"uiTheme": "vs-dark",
-				"path": "./theme/dracula-soft.json"
 			}
 		]
 	},
@@ -67,9 +58,7 @@
 		"prettier": "^1.17.0",
 		"tinycolor2": "^1.4.1"
 	},
-	"__metadata": {
-		"id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-		"publisherDisplayName": "Dracula Theme",
-		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
+	"dependencies": {
+		"vsce": "^1.66.0"
 	}
 }
