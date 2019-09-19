@@ -1,9 +1,9 @@
 {
 	"name": "theme-dracula-italics-turbo",
-	"version": "1.0.1",
-	"displayName": "Dracula Theme enhanced width italic keywords",
+	"version": "1.0.2",
+	"displayName": "Dracula Italics Turbo",
 	"homepage": "https://draculatheme.com/",
-	"description": "Forked version of dracula enhanced width italic keywords",
+	"description": "Forked version of dracula enhanced with italic keywords",
 	"publisher": "FlorianDuros",
 	"license": "MIT",
 	"scripts": {
